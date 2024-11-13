@@ -5,7 +5,7 @@ provider "aws" {
 data "terraform_remote_state" "projectA" {
   backend = "s3"
   config = {
-    bucket = "mein-beispiel-state-bucket"
+    bucket = "mein-beispiel-state-bucketa"
     key    = "projectA/terraform.tfstate"
     region = "eu-central-1"
   }
